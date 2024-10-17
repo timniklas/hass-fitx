@@ -1,0 +1,24 @@
+{
+  "title": "Fitx",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fitx Setup",
+        "description": "Setzte deine Position um nach Studios zu suchen.",
+        "data": {
+          "location": "Position"
+        }
+      },
+      "studio": {
+        "description": "Wähle ein FitX Studio in deiner Nähe aus.",
+        "data": {
+          "id": "Studio"
+        }
+      }
+    },
+    "abort": {
+      "connenction": "Fehler bei dem Verbindungsaufbau.",
+      "unknown": "Unbekannter Fehler."
+    }
+  }
+}
