@@ -44,12 +44,11 @@ class WorkloadPercentageSensor(CoordinatorEntity):
     _attr_should_poll = False
     _attr_has_entity_name = True
     _attr_unit_of_measurement = PERCENTAGE
-
-    translation_key = "workload_percentage"
     
     def __init__(self, coordinator: FitxCoordinator) -> None:
         super().__init__(coordinator)
-        self.unique_id = f"{DOMAIN}-{self.coordinator.studio_id}-{self.translation_key}"
+        self.name = f"FitX {self.coordinator.studio_name} Auslastung"
+        self.unique_id = f"{DOMAIN}-{self.coordinator.studio_id}-auslastung"
 
     @callback
     def _handle_coordinator_update(self) -> None:
