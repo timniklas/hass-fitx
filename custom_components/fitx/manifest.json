@@ -3,8 +3,8 @@
   "name": "FitX",
   "codeowners": ["@timniklas"],
   "config_flow": true,
-  "documentation": "https://github.com/timniklas//hass-fitx",
+  "documentation": "https://github.com/timniklas/hass-fitx",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/timniklas//hass-fitx/issues",
+  "issue_tracker": "https://github.com/timniklas/hass-fitx/issues",
   "version": "0.0.0"
 }
