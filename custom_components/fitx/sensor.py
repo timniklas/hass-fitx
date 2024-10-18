@@ -44,6 +44,7 @@ class WorkloadPercentageSensor(CoordinatorEntity):
     _attr_should_poll = False
     _attr_has_entity_name = True
     _attr_unit_of_measurement = PERCENTAGE
+    _attr_icon = "mdi:dumbbell"
     
     def __init__(self, coordinator: FitxCoordinator) -> None:
         super().__init__(coordinator)
